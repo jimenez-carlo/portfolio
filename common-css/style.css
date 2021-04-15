@@ -34,6 +34,13 @@ a:focus, a:active, a:hover, button:focus, button:active, button:hover, a b.light
     color: #2196f3;
     /*background: #2196f3;*/
 }
+header .downlad-btn:hover {
+	color:#fff;
+}
+*<.aos{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 
 .intro .social-icons > li > a {
 	background: #2196f3!important;
@@ -65,3 +72,8 @@ li{
 .font-yellow {
     color: #ffb01d;
 }
+.fluidbox__overlay {
+    background-color: hsl(0deg 0% 0% / 85%);
+}
+
+.isotope-item:hover { z-index: 10; }

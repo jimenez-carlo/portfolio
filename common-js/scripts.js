@@ -29,7 +29,7 @@
 			});
 		 
 			$('.portfolioFilter a').click(function(){
-				AOS.refresh();
+				// AOS.refresh();
 				$('.portfolioFilter .current').removeClass('current');
 				$(this).addClass('current');
 		 
