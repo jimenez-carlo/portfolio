@@ -75,5 +75,3 @@ li{
 .fluidbox__overlay {
     background-color: hsl(0deg 0% 0% / 85%);
 }
-
-.isotope-item:hover { z-index: 10; }

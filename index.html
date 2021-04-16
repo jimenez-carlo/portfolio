@@ -19,6 +19,7 @@
 	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 	<link href="common-css/style.css" rel="stylesheet">
+	<script src="common-js/aos.js"></script>	
 </head>
 <body>
 	
@@ -361,8 +362,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	
 
-	<script src="common-js/aos.js"></script>	
+
 	<!-- SCIPTS -->
+	<script>
+//		window.addEventListener('load', AOS.refresh);
+// 		AOS.init({
+//   duration: 1200,
+//   // once: true
+// })
+		setTimeout(() => {
+        AOS.init();
+    }, 300);
+		// AOS.init({ once: 'true'});
+	</script>
+	
 
 	<script src="common-js/jquery-3.2.1.min.js"></script>
 	<script src="common-js/tether.min.js"></script>
@@ -372,17 +385,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="common-js/progressbar.min.js"></script>
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	<script src="common-js/scripts.js"></script>
-	<script>
-//		window.addEventListener('load', AOS.refresh);
-// 		AOS.init({
-//   duration: 1200,
-//   // once: true
-// })
-		setTimeout(() => {
-        AOS.init();
-    }, 120);
-		// AOS.init({ once: 'true'});
-	</script>
 	
 	
 </body>
