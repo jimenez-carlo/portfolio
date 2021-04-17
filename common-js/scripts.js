@@ -20,16 +20,15 @@
 		if(isExists('.portfolioContainer')){
 			var $container = $('.portfolioContainer');
 			$container.isotope({
-				filter: '*',
+				filter: '.kireina',
 				animationOptions: {
 					duration: 750,
 					easing: 'linear',
 					queue: false
 				}
 			});
-		 
+		 	 AOS.refresh();
 			$('.portfolioFilter a').click(function(){
-				// AOS.refresh();
 				$('.portfolioFilter .current').removeClass('current');
 				$(this).addClass('current');
 		 
@@ -42,6 +41,7 @@
 						queue: false
 					}
 				 });
+				AOS.refresh();
 				 return false;
 			}); 
 		}

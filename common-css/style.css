@@ -23,9 +23,18 @@ header .downlad-btn {
 	background: #304adf;
 	color:#fff;
 }
-.experience-section {
+.experience-section,.about-section,.intro-section:after {
 	background: #304adf;
+	color:#fff;
 }
+.margin-b-50 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+.radial-progress .progressbar-text, .progress-title {
+	color:#fff!important;
+}
+
 .portfolio-section .portfolioFilter a.current {
     color: #2196f3;
 }
