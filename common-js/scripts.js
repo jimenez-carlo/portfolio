@@ -20,7 +20,7 @@
 		if(isExists('.portfolioContainer')){
 			var $container = $('.portfolioContainer');
 			$container.isotope({
-				filter: '.kireina',
+				filter: '*',
 				animationOptions: {
 					duration: 750,
 					easing: 'linear',
