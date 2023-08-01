@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body   style="background: red;">
+  
+<img src="output.gif" alt="" height="100" width="100" loop="" id="gif">
+<!-- <img src="img.png" alt="" height="100" width="100" loop=""> -->
+</body>
+<script>
+window.addEventListener("DOMContentLoaded", function(){
+  const img = document.getElementById("gif");
+  img.style = "display: none;";
+  img.style = "display: block;";
+  setTimeout(() => {
+    img.src = "img.png";
+  }, 3000);
+
+});
+</script>
+</html>

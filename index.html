@@ -69,7 +69,7 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img" data-aos="flip-left"><img src="images/profile_picture.jpg" alt=""></div>
+						<div class="profile-img" data-aos="flip-left"><img src="images/output.gif" alt="" id="gif"></div>
 						<h2 data-aos="fade-left"><b>Carlo Jimenez</b></h2>
 						<h4 data-aos="fade-left" class="font-custom">Web Developer</h4>
 						<ul class="information margin-tb-30" data-aos="fade-left">
@@ -181,7 +181,7 @@
 					<div class="experience margin-b-50">
 						<h4 class="font-yellow" data-aos="fade-right"><b>SOFTWARE DEVELOPER</b></h4>
 						<h5 class="" data-aos="fade-right"><b>WONDERLABS(AVALADE)</b></h5>
-						<h6 class="margin-t-10" data-aos="fade-right">OCTOBER 2021 - PRESENT</h6>
+						<h6 class="margin-t-10" data-aos="fade-right">OCTOBER 2021</h6>
 						<p class="font-semi-white margin-tb-30" data-aos="fade-right">Web App/Php Developement, Scrum, Rest API</p>
 						<ul class="list margin-b-30">
 							<li data-aos="fade-right">PHP Pdo, Zend, Cake, Laravel, Matomo</li>
@@ -457,6 +457,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         once: true,
     }); 
 	</script>
-	
+	<script>
+		window.addEventListener("DOMContentLoaded", function () {
+			const img = document.getElementById("gif");
+			img.style = "display: none;";
+			img.style = "display: block;";
+			setTimeout(() => {
+				img.src = "images/img.png";
+			}, 3000);
+
+		});
+	</script>
 </body>
 </html>

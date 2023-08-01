@@ -87,3 +87,6 @@ li{
 .portfolioContainer{
 	min-height: 100vh;
 }
+body {
+cursor: url(../starcraft.ani);
+}
